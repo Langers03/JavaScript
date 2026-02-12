@@ -10,5 +10,16 @@
     <h1 id="heading">I Change When You Click That Button!</h1>
     <button onclick="changeHeadingText()">"Click me!"</button>
     
+    <p1 id="Adults" style="display:none">Welcome to the website!</p1>
+    <p1 id="Children" style="display:none">Sorry, You're Too Young!</p1>
+
+    <script> //This is an example of a Condtional Statement
+    var myAge = 22;
+
+if (myAge >= 18 ) {
+    document.getElementById("Adults").style.display = "block";}
+else {
+    document.getElementById("Children").style.display = "block";}
+    </script>
 </body>
 </html></html>
