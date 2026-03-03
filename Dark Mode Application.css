@@ -1,0 +1,32 @@
+body {
+    background-color: #ffffff;
+    color: #000000;
+    font-family: fantasy;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    padding: 20px 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+body.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+header.dark-mode {
+    background-color: #444444;
+}
+
+button.dark-mode {
+    background-color: #555555;
+    color: #ffffff;
+}
